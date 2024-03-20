@@ -1,0 +1,60 @@
+
+@import url(Bem\ vindos\ ao\ ALBION\ ONLINE\ MMO\ Gratuito\ -\ Trailer\ Oficial.mp4);
+body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+.background-video{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.background-video video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+ 
+}
+.background-video .content{
+   position:relative;
+   z-index: 1;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+.texto {
+    color: white;
+    text-align: center;
+    z-index: 999;
+}
+.botões{
+  background-color: brown;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}    
+.botões2{
+  background-color: brown;
+  color:black;
+  border: 2px solid brown;
+}
+.botões2:hover{
+  background-color:red;
+  color: white;
+}
+
